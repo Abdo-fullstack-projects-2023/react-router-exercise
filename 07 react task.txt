@@ -1,0 +1,12 @@
+film API:
+my key: 57185461
+
+http://www.omdbapi.com/?s=romance&y=2024&apikey=57185461
+
+http://www.omdbapi.com/?s=star%20wars&apikey=57185461
+
+
+
+
+http://www.omdbapi.com/?i=tt3896198&apikey=57185461
+

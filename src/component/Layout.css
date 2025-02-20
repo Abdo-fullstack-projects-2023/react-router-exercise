@@ -1,0 +1,14 @@
+
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Center the content vertically and horzintally */
+.content {
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center;     /* Vertically center */
+  flex-grow: 1;           /* Makes sure the content takes up remaining space*/
+}

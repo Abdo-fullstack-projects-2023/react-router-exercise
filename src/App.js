@@ -13,10 +13,10 @@ import About from "./component/About";
 
 const routes = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element = {<Layout />}>
-      <Route path="/" element={<Home />} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="/about" element={<About />} />
+    <Route path="/react-router-exercise/" element = {<Layout />}>
+      <Route path="/react-router-exercise/" element={<Home />} />
+      <Route path="/react-router-exercise/contact" element={<Contact />} />
+      <Route path="/react-router-exercise/about" element={<About />} />
     </Route>
   )
 );

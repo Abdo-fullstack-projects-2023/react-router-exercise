@@ -1,5 +1,6 @@
 import {
   createBrowserRouter,
+  createHashRouter,
   createRoutesFromElements,
   RouterProvider,
   Route,
@@ -11,7 +12,8 @@ import Contact from "./component/Contact";
 import Home from "./component/Home";
 import About from "./component/About";
 
-const routes = createBrowserRouter(
+// const routes = createBrowserRouter(
+  const routes = createHashRouter(
   createRoutesFromElements(
     <Route path="/" element = {<Layout />}>
       <Route path="/" element={<Home />} />
